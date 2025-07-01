@@ -1,0 +1,56 @@
+/* now moved to external css for convenience, and also faster loading due to browser cache */
+@font-face {
+    font-family: nisesegasonic; 
+    src: url("assets/NiseSegaSonic.TTF");
+  } 
+
+  @font-face {
+    font-family: ITC EARAPES;
+    src: url("assets/ITCErasBold.woff");
+  }
+
+  body {
+    background-image: url("http://wiki.srb2.org/w/images/b/b9/GFZROCKB.png");
+  }
+
+  h1 {
+    font-family: nisesegasonic;
+  } 
+  h2 {
+    font-family: ITC EARAPES;
+  }
+
+    .divisionsidebar {
+      text-align: left; 
+      position: absolute;
+      font-family: Trebuchet MS; 
+      color: white; 
+      top: 20;
+      left: 0;
+  }
+    .container {
+      display: flex;
+      align-items: flex-start;
+    } 
+    .ytembed { 
+      flex: 1;
+    } 
+    a {
+        color: black;
+      }
+    .randombutton { 
+      background-color: #696969;
+      text-align: center; 
+      font-family: ITC EARAPES; 
+      display: inline-block; 
+    }  
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    } 
+    code {
+        background-color: #ffff;
+        padding: 6px;
+        border: 4px solid #000;
+        font-size: 105%;
+      }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--- hellor --->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="SRB2 Cross Compiling Guide" />
+    <link rel="stylesheet" href="stuff.css">
+    </head>
+    <body>
+    <div style="text-align: center;">
+    <h1> SRB2 CROSS COMPILING GUIDE</h1>
+    This is a short guide for cross compiling SRB2 for multiple platforms, like for example, compiling a Windows version of SRB2 on a GNU/Linux system.
+    <br>
+    <br>
+    Let's get straight to the point 
+    <h2>Part One: Getting SRB2 Source</h2>
+    <br>
+    Of course, to compile SRB2, you need a copy of the source code
+    <br>
+    You will need Git, a source control software that SRB2's source is hosted on
+    <br>
+    To get Git, visit <a href="https://git-scm.com/downloads"> Git's official website</a> and find the install instructions for your distro
+    <br> 
+    Once you did that, you can get SRB2's source with the following command
+    <br>
+    <br>
+    <code>git clone https://git.do.srb2.org/STJr/SRB2.git</code>
+    <br>
+    <h2>Part Two: Obtaining Toolchains</h2>
+    <br>
+    To cross compile for different systems, you need different toolchains(which are collections of software that include all the nessecary programs, like compilers, linkers, etc.)
+    <br>
+    This guide will be showing you how to install the MinGW toolchain, which allows you to compile and cross compile for Windows systems
+    <br>
+    Below are the install commands for each distro
+    <br>
+    <br>
+    Debian/Ubuntu/Linux Mint/Pop! OS
+    <br>
+    <br>
+    <code>sudo apt install mingw-w64</code>
+    <br> 
+    <br>
+    Arch/Arch Based
+    <br>
+    <br>
+    <code>pacman -S mingw-w64-gcc</code>
+    <br>
+    <br>
+    Fedora/Fedora Based
+    <br>
+    <br>
+    <code>sudo dnf install mingw32-gcc mingw64-gcc</code>
+    <br>
+    <br>
+    </div>
+    </body>
+
+    </html>
