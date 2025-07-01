@@ -3,8 +3,8 @@
 # Dependencies: sudo apt install make git git-lfs gcc libsdl2-mixer-dev libpng-dev libcurl4-openssl-dev libgme-dev libopenmpt-dev libfuse2 file
 
 date=$(date +"%Y%m%d%H%M%S")
-mkdir "srb2legacy-AppImage-$date"
-cd "srb2legacy-AppImage-$date"
+mkdir "srb2legacy-AppImage"
+cd "srb2legacy-AppImage"
 
 # Prepare assets with LFS
 git clone https://git.do.srb2.org/STJr/srb2assets-public.git -b SRB2_2.1 assets
