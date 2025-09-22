@@ -20,6 +20,10 @@
     font-family: ITC EARAPES;
   }
 
+  p {
+  color: white;
+}
+
     .divisionsidebar {
       text-align: left; 
       position: absolute;
